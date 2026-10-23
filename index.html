@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تک پی | TECH PAY</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;700&display=swap');
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        
+        body { 
+            font-family: 'Vazirmatn', sans-serif; 
+            background: linear-gradient(135deg, #0a1128 0%, #121e3d 100%); 
+            color: #fff; 
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+            background: rgba(18, 30, 61, 0.7);
+            backdrop-filter: blur(10px);
+            padding: 40px 20px;
+            border-radius: 24px;
+            border: 1px solid rgba(0, 102, 255, 0.3);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+        }
+
+        /* لوگو */
+        .logo-text {
+            font-size: 48px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+        .logo-tech { color: #0066ff; }
+        .logo-pay { color: #fff; }
+        .logo-icon { font-size: 40px; }
+
+        .tagline {
+            font-size: 16px;
+            color: #6b7c9e;
+            margin-bottom: 30px;
+            font-weight: 300;
+        }
+
+        /* ویژگی ها */
+        .features {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-bottom: 40px;
+            text-align: right;
+        }
+        .feature-item {
+            background: rgba(0, 102, 255, 0.1);
+            padding: 15px;
+            border-radius: 12px;
+            border-right: 4px solid #0066ff;
+            font-size: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .feature-item span { color: #00a86b; font-size: 20px; }
+
+        /* دکمه ها */
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 16px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+        .btn-primary {
+            background: #0066ff;
+            color: #fff;
+            box-shadow: 0 5px 15px rgba(0, 102, 255, 0.4);
+        }
+        .btn-primary:hover {
+            background: #005ce6;
+            transform: translateY(-2px);
+        }
+        .btn-secondary {
+            background: transparent;
+            color: #fff;
+            border: 1px solid #6b7c9e;
+        }
+        .btn-secondary:hover {
+            border-color: #fff;
+            background: rgba(255,255,255,0.05);
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 12px;
+            color: #6b7c9e;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- لوگو -->
+        <div class="logo-text">
+            <span class="logo-tech">TECH</span>
+            <span class="logo-pay">PAY</span>
+            <span class="logo-icon">💳</span>
+        </div>
+        
+        <p class="tagline">اعتبار همراه تو | زیرمجموعه تک مارت</p>
+
+        <!-- ویژگی ها -->
+        <div class="features">
+            <div class="feature-item">
+                <span>✅</span> خرید قسطی تا ۳ ماه
+            </div>
+            <div class="feature-item">
+                <span>✅</span> بدون نیاز به بانک و ضامن
+            </div>
+            <div class="feature-item">
+                <span>✅</span> تأیید سریع و قرارداد رسمی
+            </div>
+        </div>
+
+        <!-- دکمه ها -->
+        <div class="buttons">
+            <!-- لینک فرم گوگل خودت رو اینجا بذار -->
+            <a href="https://forms.gle/AoYLvje5Cxbh7sD76" class="btn btn-primary" target="_blank">📝 درخواست اعتبار خرید</a>
+            
+            <!-- لینک سایت اصلیت رو اینجا بذار -->
+            <a href="https://techmartn.mydigify.app" class="btn btn-secondary" target="_blank">🛒 بازگشت به فروشگاه تک مارت</a>
+        </div>
+
+        <div class="footer">
+            © ۱۴۰۵ تک مارت | کیفیت، ضمانت ماست
+        </div>
+    </div>
+
+</body>
+</html>
